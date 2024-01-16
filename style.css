@@ -386,3 +386,27 @@ input[type="button"] {
 
 
 /* footer css styles */
+footer {
+    background: rgba(19, 19, 24, 0.05);
+    text-align: center;
+    padding: 110px 336px;
+    margin-top: 1991px;
+}
+
+footer .heading {
+    padding: 0 131px 13px;
+}
+
+.icons {
+    display: flex;
+    font-size: 24px;
+    gap: 20px;
+    padding: 31px 266px;
+}
+
+.last-footer {
+    color: #131318;
+    font-family: Inter;
+    font-weight: 300;
+    padding-top: 31px;
+}

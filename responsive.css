@@ -140,4 +140,15 @@
         transform: rotateZ(-24deg);
     }
     /* main newsletter section css styles end */
+
+    footer {
+        padding: 44px 16px;
+        margin-top: 4440px;
+    }
+    footer .heading {
+        padding: 0 38px 13px;
+    }
+    .icons {
+        padding: 31px 107px;
+    }
 }
