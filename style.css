@@ -1,0 +1,240 @@
+/* global css styles */
+* {
+    font-family: "Mulish", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.primary-heading {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.primary-description {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom : 24px;
+}
+
+.primary-btn {
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    padding: 15px 25px;
+    font-size: 20px;
+    border: 0;
+    font-weight: 800; 
+    margin-top: 11px;
+}
+
+.span-color {
+    color: #FF5400;
+}
+
+
+/* header nav css styles */
+header {
+    margin: 50px 135px;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+nav .heading > .nav-heading {
+    display: inline;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-heading {
+    font-size: 36px;
+    color: #131318;
+    font-weight: 800;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 22px;
+    list-style: none;
+}
+
+nav .link-color {
+    color: #FF5400; 
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #424247;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* header banner section css styles */
+
+.banner {
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(images/banner.png) no-repeat center /100% 100%;
+    border-radius: 16px;
+    color: #fff;
+    text-align: center;
+    padding: 106px 150px;
+    margin: 50px auto;
+}
+
+.banner-content > h1 {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    padding-bottom: 24px;
+}
+
+.banner-content > p {
+    padding-bottom: 48px;
+}
+
+.banner-destination {
+    text-align: center;
+    display: flex;
+    gap: 24px;
+    margin-left: 12px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 20px;
+}
+
+.banner-destination input[type="text"],
+.banner-destination select {
+    padding: 16px 0 16px 16px;
+    border-radius: 8px;
+    border: 0;
+}
+
+[input="text"], select {
+    color: rgba(19, 19, 24, 0.50); 
+}
+
+.banner-destination button {
+    text-align: center;
+    background-color: #FF5400;
+    color: #fff;
+    border-radius: 8px;
+    border: 0;
+    padding: 16px 0;
+}
+
+.banner-destination select {
+    width: 174px;
+    background-color: #FFF;
+}
+
+.banner-destination button {
+    width: 174px;
+}
+
+
+/* main css styles */
+main {
+    max-height: 1080px;
+    margin: 0 auto;
+}
+
+
+/* main popular tour section css styles */
+.popular-tour {
+    margin: 100px 135px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tour-content li {
+    margin: 16px 24px;
+}
+
+
+/* main your destination section css styles */
+.destination {
+    margin: 50px 135px;
+    text-align: center;
+}
+
+.destination p {
+    margin: 24px 177px;
+}
+
+.destination-images {
+    height: 940px;
+}
+
+.img-row img {
+    height: 300px;
+    width: 100%;
+}
+
+.img-row {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.img-row .img-text {
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+    position: absolute;
+}
+
+.one {
+	top: 136px;
+	left: 191px;
+}
+
+.two {
+	top: 136px;
+	right: 191px;
+}
+
+.three {
+	top: 136px;
+	left: 118px;
+}
+
+.four {
+	top: 136px;
+	left: 445px;
+}
+
+.five {
+	top: 136px;
+	right: 116px;
+}
+
+.six {
+	top: 136px;
+	left: 191px;
+}
+
+.seven {
+	top: 136px;
+	right: 191px;
+}
+
+
+/* main why choose us section css styles */
+.why-choose-us {
+    margin: 50px 135px;
+    text-align: center;
+}
+
+
+/* footer css styles */

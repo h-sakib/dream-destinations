@@ -1,0 +1,85 @@
+@media screen and (max-width: 600px) {
+    .primary-heading {
+        font-size: 20px; 
+        margin-bottom : 10px;
+
+    }
+
+    /* global css styles end */
+    header {
+        margin: 24px;
+    }
+    .nav-heading {
+        font-size: 21px;
+    }
+    .banner h1 {
+        font-size: 22px;
+    }
+    .banner {
+        height: 484px;
+        padding: 32px 24px;
+    }
+    .banner-content > p {
+        padding-bottom: 28px;
+    }
+    .banner-destination select {
+        width: 100%;
+    }
+    .banner-destination {
+        display: grid;
+        gap: 16px;
+    }
+    .banner-destination button {
+        width: 100%;
+    }
+    /* header nav, banner section css styles end */
+
+    .popular-tour {
+        margin: 24px;
+        display: grid;
+        justify-content: space-between;
+    }
+
+    .tour-image img {
+        width: 100%;
+        margin: 44px 0;
+    }
+
+    /* main your destination section css styles end */
+    .destination {
+        margin: 24px;
+    }
+    .destination p {
+        margin: 24px 0;
+    }
+    .img-row {
+        display: grid;
+    }
+    .one {
+        left: 110px;
+    }
+    .two {
+        top: 454px;
+        right: 103px;
+    }
+    .four {
+        top: 455px;
+        left: 68px;
+    }
+    .five {
+        top: 778px;
+        right: 108px;
+    }
+    .six {
+        top: 136px;
+        left: 84px;
+    }
+    .seven {
+        top: 452px;
+        right: 91px;
+    }
+
+
+    /* main popular tour section css styles end */
+    
+}
