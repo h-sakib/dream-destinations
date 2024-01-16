@@ -284,4 +284,105 @@ main {
 }
 
 
+/* main perfect place section css styles
+.perfect-place {
+    margin: 313px 135px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    position: relative;
+}
+
+.place-content li {
+    color: #131318;
+    font-weight: 700;
+    line-height: 26px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.place-img h2 {
+    color: #FFF;
+    text-align: center;
+    position: absolute;
+    right: 183px;
+    bottom: 183px;
+} */
+
+
+/* main newsletter section css styles */
+.newsletter {
+    margin: 353px 135px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    width: 35%;
+    height: 100%;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 21px;
+    margin-right: 11px;
+}
+
+.left h2 {
+    color: #131318;
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+
+.horizontal-line {
+    border: 1px solid rgba(19, 19, 24, 0.10);;
+}
+
+.left .input {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+input {
+    padding: 16px;
+    border-radius: 8px;
+    border: 0;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+input[type="button"] {
+    background-color: #FF5400;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.right img {
+    width: 100%;
+}
+
+.in-box {
+	border-radius: 16px;
+	background: #FF5400;
+	width: 45%;
+	text-align: center;
+	padding: 25px;
+	position: relative;
+	bottom: 211px;
+	left: 318px;
+	transform: rotateZ(-38deg);
+}
+
+.in-box p  {
+    color: #FFF;
+    font-size: 24px;
+}
+
+.in-box h2 {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+
 /* footer css styles */

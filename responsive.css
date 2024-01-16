@@ -104,4 +104,40 @@
         position: static;
     }
     /* main why choose us section css styles end */
+
+    .perfect-place {
+        margin: 34px 24px;
+        display: grid;
+    }
+    .place-content li {
+        margin: 16px 24px;
+    }
+    .place-img {
+        width: 100%;
+    }
+    /* main perfect place section css styles  end */
+
+    .newsletter {
+        margin: 45px 24px;
+        display: grid;
+    }  
+    .left {
+        width: 87%;
+        height: 80%;
+        margin-bottom: 20px;
+    }
+    .in-box p {
+        font-size: 15px;
+    }
+    .in-box h2 {
+        font-size: 20px;
+    }
+    .in-box {
+        width: 45%;
+        padding: 15px;
+        bottom: 108px;
+        left: 131px;
+        transform: rotateZ(-24deg);
+    }
+    /* main newsletter section css styles end */
 }
