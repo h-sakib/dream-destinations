@@ -9,17 +9,27 @@
     header {
         margin: 24px;
     }
+    nav .heading img {
+        width: 32px;
+    }
     nav {
-        display: grid;
+        gap: 178px;
+    }
+    nav .bars {
+        visibility: visible;
     }
     nav > ul {
+        visibility: hidden;
         gap: 28px;
     }
     nav ul a {
         font-size: 12px;
     }
+    .heading {
+        gap: 5px;
+    }
     .nav-heading {
-        font-size: 21px;
+        font-size: 18px;
     }
     .banner h1 {
         font-size: 22px;
@@ -149,7 +159,7 @@
         margin-top: 4313px;
     }
     footer .heading {
-        padding: 0 38px 13px;
+        padding: 0 61px 13px;
     }
     .icons {
         padding: 31px 107px;
